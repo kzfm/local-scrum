@@ -15,7 +15,8 @@ body #main #columns .column h2:hover .column-destroy{display:inline-block}
 body #main #columns .column .border-right{height:100%;width:5px;float:left;background-image:url("../img/green-board-line.png")}
 body #main #columns .column .column-destroy{display:none;cursor:pointer;margin-left:10px;width:24px;height:24px;background:url("../img/minus_alt_24x24.png") no-repeat 0 0}
 body #main #columns .editing .display,body #main #columns .edit{display:none}
-body #main #columns .editing .edit{display:block}
+body #main #columns .editing .edit{display:block;}
+body #main #columns .editing .edit input[type="text"]{height:26px;font-size:24px;line-height:36px;text-align:center;background:transparent;border:none}
 body #main #add-column{opacity:.15}
 body #main #add-column:hover{opacity:.5}
 .postit{background:#f7f268;background:-webkit-gradient(linear,left bottom,left top,color-stop(.25,#f7f268),color-stop(.76,#f7f48f))}
