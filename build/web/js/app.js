@@ -12885,7 +12885,9 @@ Backbone.sync = function(method, model, options, error) {
     };
 
     NoteView.prototype.focus = function(event) {
-      return event.currentTarget.value = '';
+      if (event.currentTarget.value === 'click here to write') {
+        return event.currentTarget.value = '';
+      }
     };
 
     NoteView.prototype.blur = function(event) {

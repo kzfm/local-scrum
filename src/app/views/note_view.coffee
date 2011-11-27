@@ -37,7 +37,7 @@ class exports.NoteView extends Backbone.View
         @model.view = @
 
     focus: (event) ->
-        event.currentTarget.value = ''
+        if event.currentTarget.value == 'click here to write' then event.currentTarget.value = ''
         
     blur: (event) ->
         if event.currentTarget.value == '' then event.currentTarget.value = 'click here to write'
